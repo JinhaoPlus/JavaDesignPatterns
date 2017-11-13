@@ -5,14 +5,14 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * Unit test for simple App.
+ * Unit lab for simple App.
  */
 public class AppTest
         extends TestCase {
     /**
-     * Create the test case
+     * Create the lab case
      *
-     * @param testName name of the test case
+     * @param testName name of the lab case
      */
     public AppTest(String testName) {
         super(testName);
