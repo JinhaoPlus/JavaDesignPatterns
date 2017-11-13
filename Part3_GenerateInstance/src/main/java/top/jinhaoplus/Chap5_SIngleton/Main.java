@@ -15,12 +15,14 @@ public class Main {
         System.out.println("Start2...");
 
         Thread thread1 = new Thread(new Runnable() {
+            @Override
             public void run() {
                 UnsafeSingleton unsafeSingleton1 = UnsafeSingleton.getInstance();
                 System.out.println(unsafeSingleton1);
             }
         });
         Thread thread2 = new Thread(new Runnable() {
+            @Override
             public void run() {
                 UnsafeSingleton unsafeSingleton2 = UnsafeSingleton.getInstance();
                 System.out.println(unsafeSingleton2);
@@ -37,12 +39,14 @@ public class Main {
         System.out.println("Start3...");
 
         Thread thread3 = new Thread(new Runnable() {
+            @Override
             public void run() {
                 SafeSingleton safeSingleton1 = SafeSingleton.getInstance();
                 System.out.println(safeSingleton1);
             }
         });
         Thread thread4 = new Thread(new Runnable() {
+            @Override
             public void run() {
                 SafeSingleton safeSingleton2 = SafeSingleton.getInstance();
                 System.out.println(safeSingleton2);
