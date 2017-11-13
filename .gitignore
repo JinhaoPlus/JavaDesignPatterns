@@ -8,5 +8,17 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 
+# System Generate files
+.idea/
+*.iml
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
