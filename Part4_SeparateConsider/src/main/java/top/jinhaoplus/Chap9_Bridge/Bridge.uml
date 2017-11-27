@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>top.jinhaoplus.Chap9_Bridge.CountDisplay</OriginalElement>
+  <nodes>
+    <node x="-36.0" y="673.0">top.jinhaoplus.Chap9_Bridge.IncreaseDisplay</node>
+    <node x="767.5" y="67.5">top.jinhaoplus.Chap9_Bridge.StringDisplayImpl</node>
+    <node x="1061.5" y="467.5">top.jinhaoplus.Chap9_Bridge.CharDisplayImpl</node>
+    <node x="518.0" y="112.5">top.jinhaoplus.Chap9_Bridge.DisplayImpl</node>
+    <node x="-36.5" y="363.0">top.jinhaoplus.Chap9_Bridge.CountDisplay</node>
+    <node x="262.5" y="318.5">top.jinhaoplus.Chap9_Bridge.Display</node>
+    <node x="788.0" y="534.5">top.jinhaoplus.Chap9_Bridge.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="top.jinhaoplus.Chap9_Bridge.CharDisplayImpl" target="top.jinhaoplus.Chap9_Bridge.DisplayImpl">
+      <point x="0.0" y="-92.5" />
+      <point x="1200.0" y="0.0" />
+      <point x="600.0" y="0.0" />
+      <point x="0.0" y="-47.5" />
+    </edge>
+    <edge source="top.jinhaoplus.Chap9_Bridge.CountDisplay" target="top.jinhaoplus.Chap9_Bridge.Display">
+      <point x="116.5" y="0.0" />
+      <point x="-97.5" y="0.0" />
+    </edge>
+    <edge source="top.jinhaoplus.Chap9_Bridge.IncreaseDisplay" target="top.jinhaoplus.Chap9_Bridge.CountDisplay">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="top.jinhaoplus.Chap9_Bridge.StringDisplayImpl" target="top.jinhaoplus.Chap9_Bridge.DisplayImpl">
+      <point x="-112.5" y="0.0" />
+      <point x="82.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="378.5" y="25.0" />
+  <SelectedNodes>
+    <node>top.jinhaoplus.Chap9_Bridge.IncreaseDisplay</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

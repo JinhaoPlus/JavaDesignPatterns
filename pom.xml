@@ -12,6 +12,7 @@
         <module>Part1_AdaptToDesignPatterns</module>
         <module>Part2_AssignChildrenToDo</module>
         <module>Part3_GenerateInstance</module>
+        <module>Part4_SeparateConsider</module>
     </modules>
 
     <build>
