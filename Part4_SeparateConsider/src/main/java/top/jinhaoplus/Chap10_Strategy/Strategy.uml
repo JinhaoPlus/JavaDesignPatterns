@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>top.jinhaoplus.Chap10_Strategy.Hand</OriginalElement>
+  <nodes>
+    <node x="466.0" y="0.0">top.jinhaoplus.Chap10_Strategy.Hand</node>
+    <node x="221.0" y="123.0">top.jinhaoplus.Chap10_Strategy.ProbStrategy</node>
+    <node x="0.0" y="145.0">top.jinhaoplus.Chap10_Strategy.WinningStrategy</node>
+    <node x="114.75" y="0.0">top.jinhaoplus.Chap10_Strategy.Strategy</node>
+    <node x="261.0" y="375.0">top.jinhaoplus.Chap10_Strategy.Main</node>
+    <node x="0.0" y="375.0">top.jinhaoplus.Chap10_Strategy.Player</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="top.jinhaoplus.Chap10_Strategy.WinningStrategy" target="top.jinhaoplus.Chap10_Strategy.Strategy">
+      <point x="0.0" y="-81.5" />
+      <point x="100.5" y="98.0" />
+      <point x="162.75" y="98.0" />
+      <point x="-48.0" y="36.5" />
+    </edge>
+    <edge source="top.jinhaoplus.Chap10_Strategy.ProbStrategy" target="top.jinhaoplus.Chap10_Strategy.Strategy">
+      <point x="0.0" y="-103.5" />
+      <point x="321.0" y="98.0" />
+      <point x="258.75" y="98.0" />
+      <point x="48.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.9999999999999987" x="245.0" y="108.0" />
+  <SelectedNodes>
+    <node>top.jinhaoplus.Chap10_Strategy.Hand</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
