@@ -15,6 +15,7 @@
         <module>Part4_SeparateConsider</module>
         <module>Part5_Consistency</module>
         <module>Part5_Consistency</module>
+        <module>Part6_VisitDataStructure</module>
     </modules>
 
     <build>
