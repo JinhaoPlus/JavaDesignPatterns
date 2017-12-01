@@ -13,70 +13,16 @@
   </nodes>
   <notes />
   <edges>
-    <edge source="top.jinhaoplus.Chap12_Visitor.File" target="top.jinhaoplus.Chap12_Visitor.Visitor">
-      <point x="0.0" y="81.5" />
-      <point x="160.0" y="1080.0" />
-      <point x="1080.0" y="1080.0" />
-      <point x="0.0" y="36.5" />
-    </edge>
-    <edge source="top.jinhaoplus.Chap12_Visitor.Main" target="top.jinhaoplus.Chap12_Visitor.Directory">
-      <point x="92.0" y="0.0" />
-      <point x="760.0" y="800.0" />
-      <point x="-40.0" y="103.5" />
-    </edge>
-    <edge source="top.jinhaoplus.Chap12_Visitor.Element" target="top.jinhaoplus.Chap12_Visitor.Visitor">
-      <point x="94.5" y="0.0" />
-      <point x="1240.0" y="0.0" />
-      <point x="1240.0" y="1000.0" />
-      <point x="94.5" y="0.0" />
-    </edge>
-    <edge source="top.jinhaoplus.Chap12_Visitor.ListVisitor" target="top.jinhaoplus.Chap12_Visitor.Directory">
-      <point x="94.5" y="0.0" />
-      <point x="720.0" y="600.0" />
-      <point x="-80.0" y="103.5" />
-    </edge>
-    <edge source="top.jinhaoplus.Chap12_Visitor.Visitor" target="top.jinhaoplus.Chap12_Visitor.File">
-      <point x="-94.5" y="0.0" />
-      <point x="200.0" y="1000.0" />
-      <point x="40.0" y="81.5" />
-    </edge>
-    <edge source="top.jinhaoplus.Chap12_Visitor.ListVisitor" target="top.jinhaoplus.Chap12_Visitor.File">
-      <point x="-94.5" y="0.0" />
-      <point x="160.0" y="600.0" />
-      <point x="0.0" y="-81.5" />
-    </edge>
-    <edge source="top.jinhaoplus.Chap12_Visitor.Visitor" target="top.jinhaoplus.Chap12_Visitor.Directory">
-      <point x="-94.5" y="-26.66666666666663" />
-      <point x="840.0" y="973.3333333333334" />
-      <point x="40.0" y="103.5" />
-    </edge>
     <edge source="top.jinhaoplus.Chap12_Visitor.File" target="top.jinhaoplus.Chap12_Visitor.Entry">
       <point x="-94.5" y="0.0" />
       <point x="0.0" y="800.0" />
       <point x="0.0" y="160.0" />
       <point x="-87.0" y="0.0" />
     </edge>
-    <edge source="top.jinhaoplus.Chap12_Visitor.Main" target="top.jinhaoplus.Chap12_Visitor.File">
-      <point x="-92.0" y="0.0" />
-      <point x="94.5" y="0.0" />
-    </edge>
-    <edge source="top.jinhaoplus.Chap12_Visitor.ListVisitor" target="top.jinhaoplus.Chap12_Visitor.Entry">
-      <point x="0.0" y="-48.0" />
-      <point x="0.0" y="69.5" />
-    </edge>
     <edge source="top.jinhaoplus.Chap12_Visitor.Directory" target="top.jinhaoplus.Chap12_Visitor.Entry">
       <point x="0.0" y="-103.5" />
       <point x="800.0" y="160.0" />
       <point x="87.0" y="0.0" />
-    </edge>
-    <edge source="top.jinhaoplus.Chap12_Visitor.Main" target="top.jinhaoplus.Chap12_Visitor.ListVisitor">
-      <point x="0.0" y="-25.5" />
-      <point x="0.0" y="48.0" />
-    </edge>
-    <edge source="top.jinhaoplus.Chap12_Visitor.Directory" target="top.jinhaoplus.Chap12_Visitor.Visitor">
-      <point x="94.5" y="0.0" />
-      <point x="1080.0" y="400.0" />
-      <point x="0.0" y="-36.5" />
     </edge>
     <edge source="top.jinhaoplus.Chap12_Visitor.ListVisitor" target="top.jinhaoplus.Chap12_Visitor.Visitor">
       <point x="-94.5" y="40.0" />
@@ -89,7 +35,7 @@
       <point x="0.0" y="25.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="316.5" y="580.0" />
+  <settings layout="Hierarchic Group" zoom="0.8411819021237303" x="588.3792535675083" y="505.5" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

@@ -16,6 +16,7 @@
         <module>Part5_Consistency</module>
         <module>Part5_Consistency</module>
         <module>Part6_VisitDataStructure</module>
+        <module>Part7_Simplify</module>
     </modules>
 
     <build>
