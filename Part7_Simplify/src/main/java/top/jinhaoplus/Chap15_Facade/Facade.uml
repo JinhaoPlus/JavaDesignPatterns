@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>top.jinhaoplus.Chap14_Facade.pagemaker.Database</OriginalElement>
+  <nodes>
+    <node x="21.25" y="212.0">top.jinhaoplus.Chap14_Facade.pagemaker.PageMaker</node>
+    <node x="0.0" y="0.0">top.jinhaoplus.Chap14_Facade.pagemaker.HtmlWriter</node>
+    <node x="247.00000000000003" y="55.5">top.jinhaoplus.Chap14_Facade.pagemaker.Database</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="top.jinhaoplus.Chap14_Facade.pagemaker.PageMaker" target="top.jinhaoplus.Chap14_Facade.pagemaker.HtmlWriter">
+      <point x="0.0" y="-25.5" />
+      <point x="56.75" y="81.0" />
+    </edge>
+    <edge source="top.jinhaoplus.Chap14_Facade.pagemaker.PageMaker" target="top.jinhaoplus.Chap14_Facade.pagemaker.Database">
+      <point x="99.33333333333331" y="-25.5" />
+      <point x="269.5833333333333" y="187.0" />
+      <point x="379.5" y="187.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="256.0" y="131.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
