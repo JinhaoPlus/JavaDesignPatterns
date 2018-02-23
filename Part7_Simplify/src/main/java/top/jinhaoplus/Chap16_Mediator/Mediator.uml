@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>top.jinhaoplus.Chap16_Mediator.Colleague</OriginalElement>
+  <nodes>
+    <node x="134.0" y="74.0">top.jinhaoplus.Chap16_Mediator.CollegueTextField</node>
+    <node x="279.0" y="74.0">top.jinhaoplus.Chap16_Mediator.CollegueCheckbox</node>
+    <node x="444.0" y="73.0">top.jinhaoplus.Chap16_Mediator.LoginFrame</node>
+    <node x="153.0" y="0.0">top.jinhaoplus.Chap16_Mediator.Colleague</node>
+    <node x="451.0" y="-1.0">top.jinhaoplus.Chap16_Mediator.Mediator</node>
+    <node x="0.0" y="74.0">top.jinhaoplus.Chap16_Mediator.CollegueButton</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="top.jinhaoplus.Chap16_Mediator.LoginFrame" target="top.jinhaoplus.Chap16_Mediator.Mediator">
+      <point x="0.0" y="-12.0" />
+      <point x="0.0" y="12.0" />
+    </edge>
+    <edge source="top.jinhaoplus.Chap16_Mediator.CollegueCheckbox" target="top.jinhaoplus.Chap16_Mediator.Colleague">
+      <point x="0.0" y="-12.0" />
+      <point x="343.0" y="49.0" />
+      <point x="225.5" y="49.0" />
+      <point x="29.0" y="12.0" />
+    </edge>
+    <edge source="top.jinhaoplus.Chap16_Mediator.CollegueButton" target="top.jinhaoplus.Chap16_Mediator.Colleague">
+      <point x="0.0" y="-12.0" />
+      <point x="57.0" y="49.0" />
+      <point x="167.5" y="49.0" />
+      <point x="-29.0" y="12.0" />
+    </edge>
+    <edge source="top.jinhaoplus.Chap16_Mediator.CollegueTextField" target="top.jinhaoplus.Chap16_Mediator.Colleague">
+      <point x="0.0" y="-12.0" />
+      <point x="0.0" y="12.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="486.0" y="202.0" />
+  <SelectedNodes>
+    <node>top.jinhaoplus.Chap16_Mediator.LoginFrame</node>
+    <node>top.jinhaoplus.Chap16_Mediator.Mediator</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

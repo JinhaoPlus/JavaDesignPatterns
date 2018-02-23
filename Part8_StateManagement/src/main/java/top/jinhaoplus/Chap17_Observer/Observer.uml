@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>top.jinhaoplus.Chap17_Observer.GraphObserver</OriginalElement>
+  <nodes>
+    <node x="20.0" y="143.0">top.jinhaoplus.Chap17_Observer.NumberGenerator</node>
+    <node x="0.0" y="217.0">top.jinhaoplus.Chap17_Observer.RandomNumberGenerator</node>
+    <node x="131.0" y="74.0">top.jinhaoplus.Chap17_Observer.DigitObserver</node>
+    <node x="0.0" y="74.0">top.jinhaoplus.Chap17_Observer.GraphObserver</node>
+    <node x="78.0" y="0.0">top.jinhaoplus.Chap17_Observer.Observer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="top.jinhaoplus.Chap17_Observer.GraphObserver" target="top.jinhaoplus.Chap17_Observer.Observer">
+      <point x="0.0" y="-12.0" />
+      <point x="55.5" y="49.0" />
+      <point x="98.5" y="49.0" />
+      <point x="-20.5" y="12.0" />
+    </edge>
+    <edge source="top.jinhaoplus.Chap17_Observer.DigitObserver" target="top.jinhaoplus.Chap17_Observer.Observer">
+      <point x="0.0" y="-12.0" />
+      <point x="182.5" y="49.0" />
+      <point x="139.5" y="49.0" />
+      <point x="20.5" y="12.0" />
+    </edge>
+    <edge source="top.jinhaoplus.Chap17_Observer.RandomNumberGenerator" target="top.jinhaoplus.Chap17_Observer.NumberGenerator">
+      <point x="0.0" y="-12.0" />
+      <point x="0.0" y="12.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="117.0" y="120.5" />
+  <SelectedNodes>
+    <node>top.jinhaoplus.Chap17_Observer.GraphObserver</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

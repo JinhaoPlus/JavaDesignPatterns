@@ -63,9 +63,9 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
     @Override
     public void colleagueChanged() {
         if (checkGuest.getState()) {
-            textUser.setEnabled(false);
-            textPass.setEnabled(false);
-            buttonOk.setEnabled(true);
+            textUser.setCollegueEnabled(false);
+            textPass.setCollegueEnabled(false);
+            buttonOk.setCollegueEnabled(true);
         } else {
             textUser.setCollegueEnabled(true);
             userpassChanged();
@@ -74,15 +74,15 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
 
     private void userpassChanged() {
         if (textUser.getText().length() > 0) {
-            textUser.setEnabled(true);
+            textPass.setCollegueEnabled(true);
             if (textPass.getText().length() > 0) {
                 buttonOk.setCollegueEnabled(true);
             } else {
                 buttonOk.setCollegueEnabled(false);
             }
         } else {
-            textPass.setEnabled(false);
-            buttonOk.setEnabled(false);
+            textPass.setCollegueEnabled(false);
+            buttonOk.setCollegueEnabled(false);
         }
     }
 

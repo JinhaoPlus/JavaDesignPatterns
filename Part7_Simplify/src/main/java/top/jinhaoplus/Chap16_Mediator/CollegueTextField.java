@@ -23,8 +23,10 @@ public class CollegueTextField extends TextField implements TextListener, Collea
         setBackground(enabled ? Color.white : Color.lightGray);
     }
 
+
     @Override
     public void textValueChanged(TextEvent e) {
+        // colleague状态变化通知mediator
         mediator.colleagueChanged();
     }
 }
