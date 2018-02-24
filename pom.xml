@@ -19,6 +19,7 @@
         <module>Part7_Simplify</module>
         <module>Part8_StateManagement</module>
         <module>Part9_AvoidWaste</module>
+        <module>Part10_ExpressByClass</module>
     </modules>
 
     <build>
